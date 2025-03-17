@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--METADADOS-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Somos uma agência de tecnologia e audiovisual. Nosso objetivo é elevar o nível da sua empresa. E uma equipe pronta não só para te atender, mas superar suas expectativas. Transformando suas ideias em vídeos e incríveis. Junte-se a nós na jornada de criar algo extraordinário.">
+    <meta name="keywords" content="Tecnologia, Audiovisual, Empreendedorismo, Edição, Vídeos">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Sneets - Tech & Films">
+    <meta property="og:description" content="Somos uma agência de tecnologia e audiovisual. Nosso objetivo é elevar o nível da sua empresa. E uma equipe pronta não só para te atender, mas superar suas expectativas. Transformando suas ideias em vídeos e fotos incríveis. Junte-se a nós na jornada de criar algo extraordinário.">
+    <meta property="og:image" content="./img/foto_equipe.webp">
+    <!--TITLE-->
+    <title>Sneets Audiovisual</title>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style-sneets.css">
+    <!--FONT AWESOME-->
+    <script src="https://kit.fontawesome.com/a474f4b275.js" crossorigin="anonymous"></script>
+    <!--BIBLIOTECA AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div id="inside-header">
+            <img src="./img/img-sneets/logo-sneets.png" alt="Logo colorida da Sneets - Tech & Films">
+            <div id="mobile-menu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav id="nav">
+                <a href="#home" class="simple-btn">Home</a>
+                <a href="#servicos" class="simple-btn">Serviços</a>
+                <a href="#equipe" class="simple-btn">Equipe</a>
+                <a href="#depoimentos" class="simple-btn">Depoimentos</a>
+                <a href="#portfolio" class="simple-btn">Portfólio</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <video autoplay muted loop playsinline webkit-playsinline id="background-video">
+            <source src="./img/img-sneets/background-home.mp4" type="video/mp4">
+        </video>
+        <div id="inside-home" data-aos="fade-up">
+            <h1 class="white-color">SUA VISÃO TRANS<span class="first-color">FORMA</span> O MUNDO</h1>
+            <a href="https://wa.me/5511956920080?text=Ol%C3%A1!%20Cheguei%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20iniciar%20um%20projeto" target="_blank" class="first-btn">Crie seu projeto <span class="underline"></span></a>
+        </div>
+    </section>
+
+
+    <section id="break-sneets">
+        <img src="./img/img-sneets/img-break-sneets.png" alt="Imagem com diversos escritos 'SNEETS'" data-aos="fade-up">
+    </section>
+
+    <section id="sobre">
+        <div id="inside-sobre">
+            <div class="description-about" data-aos="flip-right">
+                <p>A Sneets captura momentos e impulsiona a imagem e comunicação dos negócios. Nós democratizamos o acesso a produções audiovisuais de alta qualidade em cada projeto que entregamos. Nascemos como uma solução inovadora, criativa e comprometida com a excelência.</p>
+            </div>
+        </div>
+        <div id="inside-mvv">
+
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div id="inside-servicos">
+            <h2 class="white-color text-center margin-bottom" data-aos="fade-right">CONHEÇA NOSSOS <span class="second-color">SERVIÇOS</span></h2>
+            <br/>
+            <div class="services-focus">
+                <div class="list-services">
+
+                    <div class="service" id="edicao-de-videos" onclick="openDescription(this)" data-aos="flip-up">
+                        <div class="service-title">
+                            <h3>EDIÇÃO DE VÍDEOS</h3>
+                            <h3>-</h3>
+                        </div>
+
+                        <div class="service-description open-description">
+                            <p>Vídeos dinâmicos que cativam e conquistam a atenção da sua audiência. Transformamos os seus ou os nossos materiais em produções de outro nível!</p>
+                        </div>
+                    </div>
+
+                    <div class="service" id="producao-audiovisual" onclick="openDescription(this)" data-aos="flip-up">
+                        <div class="service-title">
+                            <h3>PRODUÇÃO AUDIOVISUAL</h3>
+                            <h3>+</h3>
+                        </div>
+
+                        <div class="service-description">
+                            <p>Câmera, luz e ação! Levamos o equipamento até você para realizar produções autênticas, que expressem sua identidade em um vídeo.</p>
+                        </div>
+                    </div>
+
+                    <div class="service" id="cobertura-de-eventos" onclick="openDescription(this)" data-aos="flip-up">
+                        <div class="service-title">
+                            <h3>COBERTURA DE EVENTOS</h3>
+                            <h3>+</h3>
+                        </div>
+
+                        <div class="service-description">
+                            <p>Capturamos com fotos e vídeos as principais emoções presentes no seu evento, registrando momentos únicos com muito cuidado e originalidade.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="service" id="servico-personalizado" onclick="openDescription(this)" data-aos="flip-up">
+                        <div class="service-title">
+                            <h3>SERVIÇO PERSONALIZADO</h3>
+                            <h3>+</h3>
+                        </div>
+
+                        <div class="service-description">
+                            <p>Tem uma ideia única? Oferecemos serviços personalizados para atender às suas necessidades específicas. Crie sua demanda exclusiva, como fotos, vídeos ou os dois, e nós elaboramos um serviço sob medida.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="list-img-services">
+                    <div class="img-service img-service-open" id="img-edicao-de-videos">
+                        <img src="./img/img-sneets/servicos/edicao-de-videos.webp" alt="Imagem representativa de Edição de Vídeos">
+                    </div>
+                    <div class="img-service" id="img-producao-audiovisual">
+                        <img src="./img/img-sneets/servicos/audiovisual.webp" alt="Imagem representativa de Produção Audiovisual">
+                    </div>
+                    <div class="img-service" id="img-cobertura-de-eventos">
+                        <img src="./img/img-sneets/servicos/cobertura.webp" alt="Imagem representativa de Cobertura de Eventos">
+                    </div>
+                    <div class="img-service" id="img-personalizado">
+                        <img src="./img/img-sneets/servicos/personalizado.webp" alt="Imagem representativa de Serviço Personalizado">
+                    </div>
+                </div>
+                
+            </div>
+            <a href="https://wa.me/5511956920080?text=Ol%C3%A1!%20Cheguei%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20iniciar%20um%20projeto" target="_blank" class="first-btn btn-center">Crie seu projeto <span class="underline"></span></a>
+            
+        </div>
+    </section>
+
+
+    <div class="logo-carousel">
+        <h3 class="black-color text-center margin-top">CONFIAM EM NÓS</h3>
+        <div class="logo-track">
+            <img src="./img/img-sneets/logos-clientes/cjj.png" alt="CJJ Logo">
+            <img src="./img/img-sneets/logos-clientes/collab-jovem.png" alt="Collab Jovem Logo">
+            <img src="./img/img-sneets/logos-clientes/eclesia.png" alt="Eclesia Logo">
+            <img src="./img/img-sneets/logos-clientes/glow-news.png" alt="Glow News Logo">
+            <img src="./img/img-sneets/logos-clientes/investeens.png" alt="Investeens Logo">
+            <img src="./img/img-sneets/logos-clientes/kombuca.png" alt="Kombuca Logo">
+            <img src="./img/img-sneets/logos-clientes/multi-sonhos.png" alt="Multi Sonhos Logo">
+            <img src="./img/img-sneets/logos-clientes/potencialize.png" alt="Potencialize Logo">
+            <img src="./img/img-sneets/logos-clientes/precious-plastic.png" alt="Precious Plastic Logo">
+            <img src="./img/img-sneets/logos-clientes/tangram.png" alt="Tangram Logo">
+            <img src="./img/img-sneets/logos-clientes/tino.png" alt="Tino Logo">
+            
+            <!-- Duplicação das imagens para efeito contínuo -->
+            <img src="./img/img-sneets/logos-clientes/cjj.png" alt="CJJ Logo">
+            <img src="./img/img-sneets/logos-clientes/collab-jovem.png" alt="Collab Jovem Logo">
+            <img src="./img/img-sneets/logos-clientes/eclesia.png" alt="Eclesia Logo">
+            <img src="./img/img-sneets/logos-clientes/glow-news.png" alt="Glow News Logo">
+            <img src="./img/img-sneets/logos-clientes/investeens.png" alt="Investeens Logo">
+            <img src="./img/img-sneets/logos-clientes/kombuca.png" alt="Kombuca Logo">
+            <img src="./img/img-sneets/logos-clientes/multi-sonhos.png" alt="Multi Sonhos Logo">
+            <img src="./img/img-sneets/logos-clientes/potencialize.png" alt="Potencialize Logo">
+            <img src="./img/img-sneets/logos-clientes/precious-plastic.png" alt="Precious Plastic Logo">
+            <img src="./img/img-sneets/logos-clientes/tangram.png" alt="Tangram Logo">
+            <img src="./img/img-sneets/logos-clientes/tino.png" alt="Tino Logo">
+        </div>
+    </div>
+
+
+
+    <section id="equipe">
+        <div id="inside-equipe">
+            <h2 class="white-color text-center margin-bottom" data-aos="fade-up">POR <span class="second-color">TRÁS</span> DAS <span class="second-color">CÂMERAS</span></h2>
+
+            <div class="team-list">
+                <div class="member" data-aos="zoom-in-up">
+                    <img id="renan" src="./img/img-sneets/integrantes/renan1.png" alt="Foto do Produtor Audiovisual e Editor de Vídeos Renan Borges">
+                    <h3 class="first-color text-center">RENAN BORGES</h3>
+                    <p class="white-color text-center">VideoMaker e Editor</p>
+                </div>
+
+                <div class="member" data-aos="zoom-in-up">
+                    <img id="eyshila" src="./img/img-sneets/integrantes/eyshila1.png" alt="Foto da Eyshila Souza">
+                    <h3 class="first-color text-center">EYSHILA SOUZA</h3>
+                    <p class="white-color text-center">Marketing</p>
+                </div>
+
+                <div class="member" data-aos="zoom-in-up">
+                    <img id="joao" src="./img/img-sneets/integrantes/joao1.png" alt="Foto do Produtor Audiovisual e Editor de Vídeos João Vitor">
+                    <h3 class="first-color text-center">JOÃO VITOR</h3>
+                    <p class="white-color text-center">Editor</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="depoimentos">
+        <div id="inside-depoimentos">
+            <h2 class="white-color text-center margin-bottom" data-aos="fade-up">
+                O QUE NOSSOS <span class="first-color">CLIENTES</span> DIZEM
+            </h2>
+
+            <div class="depoiments-carousel">
+                <div class="depoiment-track">
+                    <!-- Depoimento 1 -->
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>Contratei o trabalho de captação e edição da Sneets na empresa em que trabalho e também para um vídeo de família. Ambos foram entregues com qualidade e dentro do prazo. Recomendo!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/silvia-balieiro.webp" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Silvia Balieiro</div>
+                                <div class="person-profession">Jornalista</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 2 -->
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>A Sneets eternizou momentos. O Renan está colocando seus talentos a serviço de um mundo melhor. Seu olhar tem presença e atenção, seu negócio se adapta, evolui e impulsiona!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/gabriela-montenegro.webp" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Gabriela Montenegro</div>
+                                <div class="person-profession">Fundadora da Takohá</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 3 -->
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>Acho muito massa e profissional o trabalho que a Sneets oferece. Sempre com responsabilidade e qualidade!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/deivyd-barros.webp" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Deivyd Barros</div>
+                                <div class="person-profession">Fundador da Investeens</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 4 -->
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>Eles são jovens e extremamente profissionais. Renan, em particular, é um jovem muito dedicado e competente. Contratamos os serviços da empresa dele e tivemos uma excelente experiência com fotos e filmagens que trouxeram um maior engajamento das nossas mídias sociais!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/jhonata.jpg" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Jhonata Pereira</div>
+                                <div class="person-profession">Presidente do Instituto Eclésia</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 5 -->
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>A Sneets sempre me proporcionou um serviço atencioso e de qualidade. O Renan cuida das edições e capas dos meus vídeos para YouTube com muito carinho. Estou muito satisfeita com o serviço prestado!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/lu.jpg" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Luiza Arantes</div>
+                                <div class="person-profession">Fundadora da Lu Investeen</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Depoimento 6 -->
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>Recomendo fortemente os serviços oferecidos pela Sneets. Eles têm nos ajudado a criar vídeos virais, alcançando mais de 4 milhões de visualizações em 2 meses. Sem tráfego pago, conseguimos atrair novos clientes graças à qualidade dos vídeos filmados, editados e dirigidos pela Sneets.</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/felipe.jpeg" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Felipe Baldi</div>
+                                <div class="person-profession">Fundador da Tangram</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Duplicação dos depoimentos para efeito contínuo -->
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>Contratei o trabalho de captação e edição da Sneets na empresa em que trabalho e também para um vídeo de família. Ambos foram entregues com qualidade e dentro do prazo. Recomendo!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/silvia-balieiro.webp" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Silvia Balieiro</div>
+                                <div class="person-profession">Jornalista</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>A Sneets eternizou momentos. O Renan está colocando seus talentos a serviço de um mundo melhor. Seu olhar tem presença e atenção, seu negócio se adapta, evolui e impulsiona!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/gabriela-montenegro.webp" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Gabriela Montenegro</div>
+                                <div class="person-profession">Fundadora da Takohá</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>Acho muito massa e profissional o trabalho que a Sneets oferece. Sempre com responsabilidade e qualidade!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/deivyd-barros.webp" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Deivyd Barros</div>
+                                <div class="person-profession">Fundador da Investeens</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>Eles são jovens e extremamente profissionais. Renan, em particular, é um jovem muito dedicado e competente. Contratamos os serviços da empresa dele e tivemos uma excelente experiência com fotos e filmagens que trouxeram um maior engajamento das nossas mídias sociais!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/jhonata.jpg" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Jhonata Pereira</div>
+                                <div class="person-profession">Presidente do Instituto Eclésia</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>A Sneets sempre me proporcionou um serviço atencioso e de qualidade. O Renan cuida das edições e capas dos meus vídeos para YouTube com muito carinho. Estou muito satisfeita com o serviço prestado!</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/lu.jpg" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Luiza Arantes</div>
+                                <div class="person-profession">Fundadora da Lu Investeen</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="depoiment" data-aos="zoom-in-up">
+                        <div class="depoiment-text">
+                            <p>Recomendo fortemente os serviços oferecidos pela Sneets. Eles têm nos ajudado a criar vídeos virais, alcançando mais de 4 milhões de visualizações em 2 meses. Sem tráfego pago, conseguimos atrair novos clientes graças à qualidade dos vídeos filmados, editados e dirigidos pela Sneets.</p>
+                            <div class="arrow"></div>
+                        </div>
+                        <div class="depoiment-person">
+                            <div class="person-img">
+                                <img src="./img/img-sneets/depoimentos/felipe.jpeg" alt="Foto de um(a) cliente satisfeito(a) da Sneets - Tech e Films">
+                            </div>
+                            <div class="person-data">
+                                <div class="person-name">Felipe Baldi</div>
+                                <div class="person-profession">Fundador da Tangram</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <a href="https://wa.me/5511956920080?text=Ol%C3%A1!%20Cheguei%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20iniciar%20um%20projeto" target="_blank" class="btn-secondary btn-center">Crie seu projeto <span class="underline-secondary"></span></a>
+            </div>
+        </div>
+    </section>
+
+
+
+            
+    <section id="portfolio">
+        <div id="inside-portfolio">
+            <h2 class="white-color text-center margin-bottom" data-aos="fade-up">Nosso <span class="first-color">Portfólio</span></h2>
+
+            <div id="projects">
+
+                <div class="list-projects">
+                <div id="list-projects-filmmaker">
+
+                    <div class="project" data-aos="fade-up">
+                        <div class="project-info">
+                            <h3 class="first-color">3º Edição do Z Summit</h3>
+                            <p class="project-description">Cobertura de evento do mercado financeiro</p>
+                            <a href="https://www.youtube.com/watch?v=H4gJZRVqeIw" target="_blank" class="see-more"><i class="fa-solid fa-arrow-right-long"></i> Ver projeto</a>
+                        </div>
+
+                        <div class="project-show">
+                            <div class="project-view project-view-iframe">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/H4gJZRVqeIw?si=FUvBjhXV64I8XARR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project" data-aos="fade-up">
+
+                        <div class="project-show">
+                            <div class="project-view project-view-iframe">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/KvtDLVdi0C4?si=_dqYqqpyDtcc8pd3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="project-info">
+                            <h3 class="first-color">Passo a passo para empreender</h3>
+                            <p class="project-description">Gravação e edição de vídeo para canal de finanças do youtube</p>
+                            <a href="https://www.youtube.com/watch?v=KvtDLVdi0C4" target="_blank" class="see-more"><i class="fa-solid fa-arrow-right-long"></i> Ver projeto</a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                </div>
+            </div>
+
+            
+            <a href="https://sneets.myportfolio.com/portfolio" target="_blank" class="first-btn margin-btn-auto">VER PORTFÓLIO COMPLETO <span class="underline"></span></a>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="text-footer">
+            <p class="text-end">Foque no seu negócio e deixe o <span class="second-color">audiovisual</span> com a gente!</p>
+        </div>
+        <div id="inside-footer">
+            <p class="cnpj white-color text-center margin-top">CNPJ: 54.547.925/0001-86</p>
+            <div class="social white-color text-center margin-top">
+                <h3 class="white-color">Nos siga nas redes sociais</h3>
+                <div class="links-social">
+                    <a href="https://wa.me/5511956920080?text=Ol%C3%A1!%20Cheguei%20atrav%C3%A9s%20do%20site%20e%20gostaria%20de%20iniciar%20um%20projeto" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/sneetsoficial/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:contato@sneets.com.br" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="autorized">© <span>2024</span> Sneets Audiovisual. Todos os direitos reservados.</div>
+        </div>
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+    <script src="./js/script-sneets.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>
